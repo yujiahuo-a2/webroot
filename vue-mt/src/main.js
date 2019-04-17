@@ -6,7 +6,10 @@ import router from './router'
 import store from './vuex'
 import MuseUI from 'muse-ui'
 import 'muse-ui/dist/muse-ui.css'
+import Vant from 'vant'
+import 'vant/lib/index.css'
 
+Vue.use(Vant)
 Vue.use(MuseUI)
 
 Vue.config.productionTip = false
