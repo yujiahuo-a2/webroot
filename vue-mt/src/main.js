@@ -8,9 +8,21 @@ import MuseUI from 'muse-ui'
 import 'muse-ui/dist/muse-ui.css'
 import Vant from 'vant'
 import 'vant/lib/index.css'
+import theme from 'muse-ui/lib/theme'
+import VueLazyload from 'vue-lazyload'
+
+theme.add('teal', {
+  primary: '#009688',
+  secondary: '#ff4081',
+  success: '#4caf50',
+  warning: '#ffeb3b',
+}, 'light');
+
+theme.use('teal');
 
 Vue.use(Vant)
 Vue.use(MuseUI)
+Vue.use(VueLazyload)
 
 Vue.config.productionTip = false
 

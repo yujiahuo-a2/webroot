@@ -1,12 +1,11 @@
 <template>
 <DIV>
-<daohang></daohang>
+  <daohang></daohang>
   <luobo></luobo>
   <lanmu></lanmu>
   <mu-divider></mu-divider>
   <ad></ad>
   <mu-divider></mu-divider>
-
   <shop></shop>
 </DIV>
 </template>

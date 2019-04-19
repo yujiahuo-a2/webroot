@@ -14,7 +14,7 @@
   </mu-row>
   <mu-divider></mu-divider>
   <mu-row gutter>
-    <mu-col span="12"><div class="grid-cell">image</div></mu-col>
+    <mu-col span="12"><div class="grid-cell" style="height:1.5rem"><img src="../../../static/lunbo/5.jpg" style="height:1.5rem;width:357px;"></div></mu-col>
   </mu-row>
 </div>
 </template>

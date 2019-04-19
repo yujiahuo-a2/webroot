@@ -1,6 +1,6 @@
 <template>
 <div>
-  <mu-flex class="flex-wrapper1" justify-content="content" >
+  <mu-flex class="flex-wrapper1">
     <mu-flex class="flex-demo1" justify-content="center" >
       <router-link to="/meishi">美食</router-link>
     </mu-flex>
@@ -10,14 +10,14 @@
     <mu-flex class="flex-demo1" justify-content="center" >外卖</mu-flex>
   </mu-flex>
   <mu-divider></mu-divider>
-  <mu-flex class="flex-wrapper" justify-content="conten">
+  <mu-flex class="flex-wrapper" >
     <mu-flex class="flex-demo" justify-content="center" >周边游</mu-flex>
     <mu-flex class="flex-demo" justify-content="center" >机票</mu-flex>
     <mu-flex class="flex-demo" justify-content="center" >丽人</mu-flex>
     <mu-flex class="flex-demo" justify-content="center" >KTV</mu-flex>
     <mu-flex class="flex-demo" justify-content="center" >美团旅游</mu-flex>
   </mu-flex>
-  <mu-flex class="flex-wrapper" justify-content="conten">
+  <mu-flex class="flex-wrapper" >
     <mu-flex class="flex-demo" justify-content="center" >景点</mu-flex>
     <mu-flex class="flex-demo" justify-content="center" >结婚</mu-flex>
     <mu-flex class="flex-demo" justify-content="center" >母音</mu-flex>
